@@ -13,7 +13,7 @@ paginate = 5
   defaultTheme = "light"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 3
 
   # Show reading time in minutes for posts
   showReadingTime = false
@@ -57,11 +57,24 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "category"
         name = "Category"
         url = "/categories"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "https://twitter.com/hongkongfelix"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "flickr"
+        name = "Flickr"
+        url = "https://www.flickr.com/felix-chan/"
+        weight = 5
