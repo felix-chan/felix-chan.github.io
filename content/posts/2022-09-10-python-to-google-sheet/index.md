@@ -1,7 +1,6 @@
 ---
 title: 將數據由 Python 儲存至 Google Sheet
 date: 2022-09-10T11:27:42+08:00
-draft: true
 author: HaNg~
 url: /2022/09/10/python-to-google-sheet/
 categories:
