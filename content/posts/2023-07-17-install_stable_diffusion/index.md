@@ -2,7 +2,7 @@
 title: 安裝 Stable Diffusion
 date: 2023-07-17T17:45:00+08:00
 author: HaNg~
-url: /2023/07/17/執相新軟件_Affinity_Photo/
+url: /2023/07/17/install_stable_diffusion/
 categories:
   - 科技
 tags:
@@ -20,7 +20,7 @@ tags:
 
 如果自己要由 **0** 開始去設定 Stable Diffusion，真係唔太容易。好在網絡社群已經有唔少有心人整好左唔同嘅 [Stable Diffusion WebUI][6]，方便新手或者我呢類嘅懶人。呢條 link https://github.com/camenduru/stable-diffusion-webui-colab 就好好咁整合左唔同 Google Colab 嘅 [Jupyter Notebook][7]，方便大家一 click 就可以係 Google Service 到開嚟用 Stable Diffusion WebUI。
 
-Google Colab 用就真係好方便，可惜有[資源限制][8]，話咁快就會用晒。我自己都有 GPU ，所以最後決定係自己部機到安裝，唔駛俾 Google 加左咁多限制。我見上網話其實係 Windows 上面都裝到，不過為左方便起見我想用番 Notebook 上面嘅 command ，所以我決定你 [Ubuntu 18.04 LTS][9] 上面用。而安裝指令就要作出一定嘅更改。
+Google Colab 用就真係好方便，可惜有[資源限制][8]，話咁快就會用晒。我自己都有 GPU ，所以最後決定係自己部機到安裝，唔駛俾 Google 加左咁多限制。我見上網話其實係 Windows 上面都裝到，不過為左方便起見我想用番 Notebook 上面嘅 command ，所以我決定係 [Ubuntu 18.04 LTS][9] 上面用。而安裝指令就要作出一定嘅更改。
 
 首先進入 https://github.com/camenduru/stable-diffusion-webui-colab ，而我選擇左 `neverending_dream_ned_webui_colab` 作為我第一個 model 。
 
